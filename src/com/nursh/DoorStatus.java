@@ -1,7 +1,7 @@
 package com.nursh;
 public enum DoorStatus {
-    Open("Open"),
-    Close("Close");
+    Open("Opened"),
+    Close("Closed");
 
     private String status;
 
