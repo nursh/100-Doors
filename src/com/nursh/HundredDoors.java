@@ -45,7 +45,7 @@ public class HundredDoors {
     }
 
     public void print() {
-        System.out.println("After 100 runs:  ");
+        System.out.println("After 100 runs, The opened doors are: ");
         for(int door = 1; door <= Doors.size(); door++){
             if(Doors.get(door).getStatus().equals("Opened"))
                 System.out.println("Door " + door + " is " + Doors.get(door).getStatus());
